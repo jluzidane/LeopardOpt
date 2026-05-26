@@ -1,0 +1,38 @@
+{
+  "file_paths": {
+    "input_file": "./input_data/input_zakharov.csv",
+    "output_dir": "results",
+    "importance_order": "importance_order.txt",
+    "importance_matrix": "importance_matrix.txt",
+    "correlation_matrix": "correlation_matrix.txt",
+    "epoch_trace": "optimization_trace.csv",
+    "bayes_trace": "bayes_trace.csv",
+    "optimal_X": "optimal_X.csv",
+    "optimal_Y": "optimal_Y.csv"
+  },
+  
+  "thresholds": {
+    "fitness_threshold": 0,
+    "fitness_threshold1": 0.25,
+    "fitness_threshold2": 0.01,
+    "step_threshold1": 5,
+    "step_threshold2": 10,
+    "IM_threshold": 0.75
+  },
+  
+  "settings": {
+    "formula": "zakharov",
+    "stop_epochs": 60,
+    "cor_estimator": "spearman",
+    "IM_estimator": "XGBoost",    
+    "key_fact_num": 2,
+    "randseed": 42
+  },
+  
+  "bayesian_optimization": {
+    "x_level": 5,
+    "n_iter": 5,
+    "random_state": 42,
+    "mode": "Dx"
+  }
+}

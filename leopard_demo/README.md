@@ -13,7 +13,5 @@ Contents
 4. The generated results will be automatically saved in the results/ folder, with the outputs for each benchmark function stored in a separate subfolder named after the function.
 How to Switch Functions
 All algorithms can be configured via command-line arguments. To change the target optimization function, run the desired Python script in the terminal with the `--formula` argument, for example:
-
 `python leopard.py --formula rosenbrock`
-
 or directly open the .py file to modify it manually.
